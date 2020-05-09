@@ -17,7 +17,6 @@ function handleCheckChange(event){
         document.body.classList.remove(Theme.LIGHT)
         localStorage.setItem('theme', Theme.DARK)
         
-        
     }else{document.body.classList.replace(Theme.DARK, Theme.LIGHT)
         localStorage.setItem('theme', Theme.LIGHT)
     }
